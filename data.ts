@@ -104,8 +104,8 @@ export const educations = [
     company: "PT. Bali Reservasi Indonesia (internship)",
     period: "2026 - Present",
     description:
-      "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
+      "Worked on developing and maintaining web applications using modern frontend technologies. Collaborated with cross-functional teams to deliver high-quality user experiences.",
+    technologies: ["React", "Node.js", "Next.js", "TypeScript"],
   },
   {
     type: "education",
@@ -113,8 +113,8 @@ export const educations = [
     company: "Smk Ti Bali Global Denpasar",
     period: "2025 - Present",
     description:
-      "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
+      " Focused on software engineering and web development. Gained hands-on experience in building web applications and understanding software development lifecycle.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Python", "C++"],
   },
   {
     type: "education",
