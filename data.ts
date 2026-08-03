@@ -154,25 +154,25 @@ export const footerSocialLinks = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Weather Web App",
     description:
-      "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    image: "/images/p1.jpg",
-    techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "A full-stack weather application with real-time forecasts, location-based services, and interactive maps.",
+    image: "/image/weatherapp.png",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://weather-app-yagaandrew.vercel.app/",
+    githubUrl: "https://github.com/YagaAndrew/Weather-App",
   },
   {
-    title: "Task Management App",
+    title: "To Do List App",
     description:
-      "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-    image: "/images/p2.jpg",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Simple to-do list application with task management and persistence.",
+    image: "/Image/todolist.png",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://yagaandrew.github.io/CodingCamp-1June26-Andrew/",
+    githubUrl: "https://github.com/YagaAndrew/CodingCamp-1June26-Andrew",
   },
   {
-    title: "AI Content Generator",
+    title: "------''------",
     description:
       "GPT-powered content creation platform for marketers with templates and workflow automation.",
     image: "/images/p3.jpg",
@@ -181,7 +181,7 @@ export const projects = [
     githubUrl: "https://github.com",
   },
   {
-    title: "Real Estate Platform",
+    title: "------''------",
     description:
       "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
     image: "/images/p4.jpg",
@@ -190,7 +190,7 @@ export const projects = [
     githubUrl: "https://github.com",
   },
   {
-    title: "Fitness Tracker",
+    title: "------''------",
     description:
       "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
     image: "/images/p5.jpg",
@@ -199,7 +199,7 @@ export const projects = [
     githubUrl: "https://github.com",
   },
   {
-    title: "Learning Management System",
+    title: "------''------",
     description:
       "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
     image: "/images/p6.jpg",
@@ -217,7 +217,7 @@ export const skillCategories = [
       { name: "Next.js", icon: Globe },
       { name: "TypeScript", icon: Terminal },
       { name: "Tailwind CSS", icon: Palette },
-      { name: "React Native", icon: Smartphone },
+      { name: "Flutter", icon: Smartphone },
       { name: "Vue.js", icon: Layout },
     ],
   },
@@ -238,7 +238,7 @@ export const skillCategories = [
       { name: "Git", icon: GitBranch },
       { name: "Docker", icon: Server },
       { name: "AWS", icon: Cloud },
-      { name: "Linux", icon: Terminal },
+      { name: "Bash", icon: Terminal },
       { name: "Figma", icon: Palette },
       { name: "CI/CD", icon: Cpu },
     ],
