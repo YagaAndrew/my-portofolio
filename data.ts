@@ -97,48 +97,48 @@ export const socialLinks = [
   { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
-export const experiences = [
+export const educations = [
   {
     type: "work",
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Inc.",
-    period: "2022 - Present",
+    title: "Frontend Developer",
+    company: "PT. Bali Reservasi Indonesia (internship)",
+    period: "2026 - Present",
     description:
       "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
     technologies: ["React", "Node.js", "AWS", "TypeScript"],
   },
   {
-    type: "work",
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
+    type: "education",
+    title: "Senior High School",
+    company: "Smk Ti Bali Global Denpasar",
+    period: "2025 - Present",
     description:
       "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
     technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
   },
   {
     type: "education",
-    title: "Master of Computer Science",
-    company: "Stanford University",
-    period: "2018 - 2020",
+    title: "Junior High School",
+    company: "Smp Pgri 3 Denpasar",
+    period: "2022 - 2025",
     description:
       "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
     technologies: ["Research", "AI/ML", "Distributed Systems"],
   },
   {
-    type: "work",
-    title: "Junior Developer",
-    company: "WebAgency Co.",
-    period: "2018 - 2020",
+    type: "education",
+    title: "Elementary School",
+    company: "Highscope Indonesia",
+    period: "2015 - 2021/2022",
     description:
       "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
     technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "UC Berkeley",
-    period: "2014 - 2018",
+    title: "Playgroup",
+    company: "Highscope Indonesia", 
+    period: "2014 - 2015",
     description:
       "Strong foundation in algorithms, data structures, and software engineering principles.",
     technologies: ["Computer Science", "Mathematics", "Problem Solving"],
