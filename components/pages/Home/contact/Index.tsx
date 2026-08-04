@@ -18,14 +18,18 @@ const Contact = () => {
   return (
     <div className="py-16 bg-gray-100 dark:bg-gray-950">
       <SectionHeading
-        title_1="Get In"
-        title_2="Touch"
+        title1="Get In"
+        title2="Touch"
         description="Have a question or want to work together?"
       />
       <div className="w-[80%] mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Contact Info */}
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="0"
+            data-aos-anchor-placement="top-center"
+          >
             <div className="space-y-8 ">
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Lets Connect</h3>
@@ -77,7 +81,11 @@ const Contact = () => {
             </div>
           </div>
           {/* Contact Form */}
-          <Card>
+          <Card
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-anchor-placement="top-center"
+          >
             <CardHeader>
               <CardTitle>Send a Message</CardTitle>
               <CardDescription>
