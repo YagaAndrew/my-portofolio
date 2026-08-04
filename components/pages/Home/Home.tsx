@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Hero from "./hero/Hero";
+import Hero from "./hero/Index";
 import About from "./about";
 import Contact from "./contact/Index";
 import Skills from "./skills/Index";
