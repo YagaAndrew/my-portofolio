@@ -49,10 +49,10 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-4 p-6">
           {/* Cv Buttons */}
           <a
-            href="#_"
+            href="/CV Andrew Yaga Novianta.pdf"
             className="box-border relative z-20 insline-flex items-center justify-center w-auto px-6 sm:px-8 py-3 overflow-hidden
-      font-bold text-white transition-all duration-300 bg-blue-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-blue-300
-      ring-offset-blue-200 hover:ring-offset-blue-500 ease focus:outline-none"
+      font-bold text-white transition-all duration-300 bg-green-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-green-300
+      ring-offset-green-200 hover:ring-offset-green-500 ease focus:outline-none"
           >
             <span className="relative z-20 flex items-center space-x-2 text-sm">
               <Download className="w-4 h-4" />

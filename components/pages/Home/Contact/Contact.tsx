@@ -89,20 +89,28 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <Label htmlFor="name">Name</Label>
+                    <Label htmlFor="name" className="p-2">
+                      Name
+                    </Label>
                     <Input id="name" placeholder="Your name" />
                   </div>
                   <div>
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email" className="p-2">
+                      Email
+                    </Label>
                     <Input id="email" type="email" placeholder="Your email" />
                   </div>
                 </div>
                 <div>
-                  <Label htmlFor="subject">Subject</Label>
+                  <Label htmlFor="subject" className="p-2">
+                    Subject
+                  </Label>
                   <Input id="subject" placeholder="Subject" />
                 </div>
                 <div>
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message" className="p-2">
+                    Message
+                  </Label>
                   <textarea
                     id="message"
                     placeholder="Your message"
