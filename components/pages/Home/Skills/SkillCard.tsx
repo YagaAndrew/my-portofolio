@@ -8,7 +8,7 @@ type Props = {
 
 const SkillCard = ({ icon: Icon, name }: Props) => {
   return (
-    <div className="group relative bg-white dark:bg-green-950 shadow-md rounded-xl p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all duration-300">
+    <div className="group relative bg-white dark:bg-gray-950 shadow-md rounded-xl p-4 flex flex-col items-center gap-3 cursor-pointer hover:scale-105 transition-all duration-300">
       <div className="w-12 h-12 rounded-lg bg-linear-to-br from-green-400 to-blue-600 flex items-center justify-center group hover:from-green-300 group-hover:to-blue-800 transition-all duration-300">
         <Icon className="w-6 h-6 text-white" />
       </div>

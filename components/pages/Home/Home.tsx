@@ -1,10 +1,11 @@
 import React from "react";
-import Hero from "./Hero/Hero";
-import About from "./About";
-import Contact from "./Contact/Contact";
-import Skills from "./Skills/Index";
-import Project from "./Project/Index";
-import Education from "./Education/Index";
+import Hero from "./hero/Hero";
+import About from "./about";
+import Contact from "./contact/Contact";
+import Skills from "./skills/Index";
+import Project from "./project/Index";
+import Education from "./education/Index";
+import ClientReview from "./clientreview/Index";
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
       <Skills />
       <Project />
       <Education />
+      <ClientReview />
+      <Contact />
     </div>
   );
 };

@@ -38,7 +38,7 @@ export const highlights = [
 export const userReviewData = [
   {
     id: 1,
-    name: "John Doe",
+    name: " I Made Arya Rama Maha Putra",
     profession: "Real Estate Agent",
     userImage: "/images/u1.jpg",
     review:
@@ -46,7 +46,7 @@ export const userReviewData = [
   },
   {
     id: 2,
-    name: "Mike Smith",
+    name: "I Kadek Indra Jonata Putra",
     profession: "Business Owner",
     userImage: "/images/u2.jpg",
     review:
@@ -54,7 +54,7 @@ export const userReviewData = [
   },
   {
     id: 3,
-    name: "Alex Johnson",
+    name: "Aditya Rizky Akbar Pauwah",
     profession: "Web developer",
     userImage: "/images/u3.jpg",
     review:
@@ -62,7 +62,7 @@ export const userReviewData = [
   },
   {
     id: 4,
-    name: "Emily Clark",
+    name: "Abizhal Yanzwar",
     profession: "Interior Designer",
     userImage: "/images/u4.jpg",
     review:
