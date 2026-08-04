@@ -7,8 +7,8 @@ const Education = () => {
   return (
     <div className="py-16 bg-gray-100 dark:bg-gray-950">
       <SectionHeading
-        title_1="Experience"
-        title_2="Education"
+        title1="Experience"
+        title2="Education"
         description="Here is my academic background."
       />
       <div className="relative px-6 max-w-4xl mx-auto">
@@ -17,6 +17,9 @@ const Education = () => {
         {educations.map((item, index) => {
           return (
             <div
+              data-aos="zoom-in"
+              data-aos-delay={index * 100}
+              data-aos-anchor-placement="top-center"
               key={index}
               className={`relarive flex flex-col md:flex-row gap-8 mb-12 ${index % 2 === 0 ? "md:flex-row-reverse" : ""}`}
             >

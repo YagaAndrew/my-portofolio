@@ -31,8 +31,8 @@ const ClientReview = () => {
     <div className="py-20 bg-gray-100 dark:bg-gray-900">
       <div className="w-[80%] mx-auto">
         <SectionHeading
-          title_1="Our Client"
-          title_2="Review"
+          title1="Our Client"
+          title2="Review"
           description="Check out what our clients have to say about us."
         />
         <div className="mt-14">
