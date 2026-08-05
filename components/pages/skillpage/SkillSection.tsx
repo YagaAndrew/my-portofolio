@@ -1,0 +1,63 @@
+"use client";
+import React, { useEffect } from "react";
+import SectionHeading from "@/components/Helper/SectionHeading";
+import SkillCard from "../Home/skills/SkillCard";
+import { highlights, skillCategories } from "@/data";
+import { stats } from "@/data";
+import Image from "next/image";
+
+import AOS, { init } from "aos";
+import "aos/dist/aos.css";
+
+const SkillSection = () => {
+  useEffect(() => {
+    const initAOS = async () => {
+      await import("aos");
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        anchorPlacement: "top-bottom",
+      });
+    };
+    initAOS();
+  }, []);
+
+  return (
+    <div className="py-30 bg-gray-100 dark:bg-gray-950">
+      <SectionHeading
+        title1="Technical"
+        title2="Skills"
+        description="Here are some of my technical skills."
+      />
+      <div className="space-y-12 w-[80%] mx-auto">
+        {skillCategories.map((category) => {
+          return (
+            <div key={category.title}>
+              <h3 className="text-xl font-semibold mb-6 flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-green-600"></span>
+                {category.title}
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                {category.skills.map((skill, index) => {
+                  return (
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-delay={index * 100}
+                      data-aos-anchor-placement="top-center"
+                      key={index}
+                    >
+                      <SkillCard name={skill.name} icon={skill.icon} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default SkillSection;
